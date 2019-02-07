@@ -6,4 +6,10 @@ for (var Nerv = 0;Nerv < 10; Nerv++ ) {
              break;
          }
      }
+     if (Nerv == 6) {
+         var weiternerven1 = confirm("Weiter nerven xD?");
+         if (weiternerven1 == false) {
+            break;
+        }
+     }
 }
