@@ -1,5 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
 
 #Überschrift {
-    color: red;
+    font-family: Staatliches;
+    font-size: 40px;
+    color: white;
+    text-decoration-line: underline;
+}
+
+#test {
+    font-family: Oswald;
+    color:white;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+body {
+    background-color: rgb(49, 49, 49);
 }
