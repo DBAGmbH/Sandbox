@@ -13,3 +13,19 @@ for (var Nerv = 0;Nerv < 10; Nerv++ ) {
         }
      }
 }
+
+function mu (Zahl1, Zahl2) {
+    console.log(Zahl1*Zahl2);
+}
+
+function mi (Zahl1, Zahl2) {
+    console.log(Zahl1-Zahl2);
+}
+
+function pl (Zahl1, Zahl2) {
+    console.log(Zahl1+Zahl2);
+}
+
+function di (Zahl1, Zahl2) {
+    console.log(Zahl1/Zahl2);
+}
