@@ -1,4 +1,4 @@
-for (var Nerv = 0;Nerv < 10; Nerv++ ) {
+/*for (var Nerv = 0;Nerv < 10; Nerv++ ) {
     alert("Nerv");
      if (Nerv == 4) {
          var weiternerven = confirm("Willste weiter genervt werden?");
@@ -13,7 +13,7 @@ for (var Nerv = 0;Nerv < 10; Nerv++ ) {
         }
      }
 }
-
+*/
 function mu (Zahl1, Zahl2) {
     console.log(Zahl1*Zahl2);
 }
