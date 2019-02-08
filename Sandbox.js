@@ -1,4 +1,8 @@
-/*for (var Nerv = 0;Nerv < 10; Nerv++ ) {
+/*
+
+// Das Nerv System
+
+for (var Nerv = 0;Nerv < 10; Nerv++ ) {
     alert("Nerv");
      if (Nerv == 4) {
          var weiternerven = confirm("Willste weiter genervt werden?");
@@ -14,18 +18,41 @@
      }
 }
 */
-function mu (Zahl1, Zahl2) {
-    console.log(Zahl1*Zahl2);
+
+/* Funtkionierender Rechner */
+
+function mu(Zahl1, Zahl2) {
+    if (typeof Zahl1 === "number" && typeof Zahl2 === "number") {
+    return Zahl1*Zahl2;
+    }
+    else {
+        console.log("Eingabe Ungültig");
+    }
 }
 
-function mi (Zahl1, Zahl2) {
-    console.log(Zahl1-Zahl2);
+function mi(Zahl1, Zahl2) {
+    if (typeof Zahl1 === "number" && typeof Zahl2 === "number") {
+        return Zahl1-Zahl2;
+        }
+        else {
+            console.log("Eingabe Ungültig");
+        }
 }
 
-function pl (Zahl1, Zahl2) {
-    console.log(Zahl1+Zahl2);
+function pl(Zahl1, Zahl2) {
+    if (typeof Zahl1 === "number" && typeof Zahl2 === "number") {
+        return Zahl1+Zahl2;
+        }
+        else {
+            console.log("Eingabe Ungültig");
+        }
 }
 
-function di (Zahl1, Zahl2) {
-    console.log(Zahl1/Zahl2);
+function di(Zahl1, Zahl2) {
+    if (typeof Zahl1 === "number" && typeof Zahl2 === "number") {
+        return Zahl1/Zahl2;
+        }
+        else {
+            console.log("Eingabe Ungültig");
+        }
 }
