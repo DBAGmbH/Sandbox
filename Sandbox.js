@@ -65,7 +65,12 @@ var person2 = new Object();
 person2.name = "Ole";
 person2.alter = 14;
 person2.hobby = "Pornos gucken";
+person2.vorstellen = vorstellen;
 
 function vorstellen() {
     console.log("ich bin", this.name, "und bin", this.alter, "Jahre alt, Mein Hobby ist:", this.hobby);
+}
+
+function pvorstellen(person) {
+    console.log("ich bin", person.name, "und ich bin", person.alter, "Jahre alt, Mein Hobby ist ", person.hobby);
 }
