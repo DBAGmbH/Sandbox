@@ -27,7 +27,8 @@ body {
 /* Liste */
 
 
-#Liste, li {
+#Liste,
+li {
     display: box;
     width: 600px;
     background-color: darkgray;
