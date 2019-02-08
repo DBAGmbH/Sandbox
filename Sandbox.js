@@ -55,22 +55,41 @@ function di(Zahl1, Zahl2) {
 
 /* Personen Objekte mit einer Vorstell funktion */
 
-var person1 = new Object();
-person1.name = "Denis der Troll";
-person1.alter = 15;
-person1.hobby = "Bitches ficken";
-person1.vorstellen = vorstellen;
+var Denis = new Object();
+Denis.name = "Denis";
+Denis.alter = 15;
+Denis.hobby = "Bitches ficken";
+Denis.vorstellen = pvorstellen;
 
-var person2 = new Object();
-person2.name = "Ole";
-person2.alter = 14;
-person2.hobby = "Pornos gucken";
-person2.vorstellen = vorstellen;
+var Ole = new Object();
+Ole.name = "Ole";
+Ole.alter = 14;
+Ole.hobby = "Pornos gucken";
+Ole.vorstellen = pvorstellen;
 
-function vorstellen() {
+var Lehrer = new Object();
+Lehrer.name = "Lehrer";
+Lehrer.alter = 60;
+Lehrer.hobby = "Kinder misshandeln";
+Lehrer.vorstellen = pvorstellen;
+
+var Charlotte = new Object();
+Charlotte.name = "Charlotte";
+Charlotte.alter = 12;
+Charlotte.hobby = "Notgeil sein, mich verkleiden wie nh Hure jeden Tag :)";
+Charlotte.vorstellen = pvorstellen;
+
+var Patter_Paul = new Object();
+Patter_Paul.name = "Patter Paul (Info Gott)";
+Patter_Paul.alter = 9000;
+Patter_Paul.hobby = "Welten Erschaffen";
+Patter_Paul.vorstellen = pvorstellen;
+
+
+function pvorstellen() {
     console.log("ich bin", this.name, "und bin", this.alter, "Jahre alt, Mein Hobby ist:", this.hobby);
 }
 
-function pvorstellen(person) {
-    console.log("ich bin", person.name, "und ich bin", person.alter, "Jahre alt, Mein Hobby ist ", person.hobby);
+function vorstellen(person) {
+    console.log("ich bin", person.name, "und ich bin", person.alter, "Jahre alt, Mein Hobby ist", person.hobby);
 }
