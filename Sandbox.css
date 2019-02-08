@@ -10,6 +10,8 @@
     padding-bottom: 2px;
 }
 
+
+
 .test {
     text-align: center;
     font-family: Oswald;
@@ -23,3 +25,48 @@
 body {
     background-color: rgb(49, 49, 49);
 }
+
+/* Bild animation */
+
+.container {
+    position: relative;
+    width: 50%;
+    margin-left: 42%;
+    margin-right: 70%;
+  }
+  
+  .image {
+    width: 30%;
+    height: auto;
+    display: block;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgb(63, 63, 63);
+    overflow: hidden;
+    width: 30%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
