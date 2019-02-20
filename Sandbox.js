@@ -1,6 +1,15 @@
-/*
+var namenSpeichern = confirm("Willste du Deinen Namen speichern")
+    if (namenSpeichern === true) {
+        var deinName = prompt("Gebe Hier deinen Namen ein");
+        window.alert("Herzlich Willkommen " + deinName);
+    }   
+    else {
+        stop;
+    }
+    
 
-// Das Nerv System
+
+/* Nerv System
 
 for (var Nerv = 0;Nerv < 10; Nerv++ ) {
     alert("Nerv");
@@ -17,7 +26,9 @@ for (var Nerv = 0;Nerv < 10; Nerv++ ) {
         }
      }
 }
+
 */
+
 
 /* Funtkionierender Rechner */
 
@@ -58,25 +69,25 @@ function di(Zahl1, Zahl2) {
 var Denis = new Object();
 Denis.name = "Denis";
 Denis.alter = 15;
-Denis.hobby = "Bitches ficken";
+Denis.hobby = "Websiten programmieren";
 Denis.vorstellen = pvorstellen;
 
 var Ole = new Object();
 Ole.name = "Ole";
 Ole.alter = 14;
-Ole.hobby = "Pornos gucken";
+Ole.hobby = "Denis noten verschlechtern";
 Ole.vorstellen = pvorstellen;
 
 var Lehrer = new Object();
 Lehrer.name = "Lehrer";
 Lehrer.alter = 60;
-Lehrer.hobby = "Kinder misshandeln";
+Lehrer.hobby = "Kinder nerven";
 Lehrer.vorstellen = pvorstellen;
 
 var Charlotte = new Object();
 Charlotte.name = "Charlotte";
 Charlotte.alter = 12;
-Charlotte.hobby = "Notgeil sein, mich verkleiden wie nh Hure jeden Tag :)";
+Charlotte.hobby = "Pferde Streicheln";
 Charlotte.vorstellen = pvorstellen;
 
 var Patter_Paul = new Object();
@@ -93,3 +104,4 @@ function pvorstellen() {
 function vorstellen(person) {
     console.log("ich bin", person.name, "und ich bin", person.alter, "Jahre alt, Mein Hobby ist", person.hobby);
 }
+
