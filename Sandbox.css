@@ -40,6 +40,11 @@ li {
     background-color: darkgray;
 }
 
+#Liste li:hover {
+    cursor: pointer;
+}
+
+
 .Rechner {
     color: rgb(255, 56, 56);
 }
