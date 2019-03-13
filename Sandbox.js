@@ -104,4 +104,3 @@ function pvorstellen() {
 function vorstellen(person) {
     console.log("ich bin", person.name, "und ich bin", person.alter, "Jahre alt, Mein Hobby ist", person.hobby);
 }
-
