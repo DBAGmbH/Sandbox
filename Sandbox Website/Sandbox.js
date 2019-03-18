@@ -98,7 +98,8 @@ Patter_Paul.vorstellen = pvorstellen;
 
 
 function pvorstellen() {
-    consoleadasdasd
+    console.log("ich bin", this.name, "und bin", this.alter, "Jahre alt, Mein Hobby ist:", this.hobby); 
+}
 function vorstellen(person) {
     console.log("ich bin", person.name, "und ich bin", person.alter, "Jahre alt, Mein Hobby ist", person.hobby);
 }
