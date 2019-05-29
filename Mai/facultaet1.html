@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title> Fakult�t</title>
+    <script language="JavaScript1.3">
+    <!--
+        function fac(){
+          var   n , facultaet=1; 	
+          n   = parseInt(document.facultaetBerechnung.eingabe.value);
+          if (n<0) alert("Fakult�tsfunktion f�r negative Argumente nicht definiert!");
+          if (n<=1){
+	          facultaet = 1;
+          }
+          else {
+             for(i=1;i<=n;i++){
+	    facultaet = facultaet * i; 
+             }
+          } 	
+          document.facultaetBerechnung.ausgabe.value = facultaet;		
+        }
+     //-->	
+   </script>
+</head>
+<body>
+<center>
+<h2>Fakult�t von n </h2>
+ 
+<form  name="facultaetBerechnung">
+    <p>0<=n<170 <input name="eingabe" type="text" value="">  </p>
+    <p><input name="Button" type="button" value="Fakult�t" onclick="fac()"> </p>
+    <p>Fakult�t <input name="ausgabe"  type="text" value="">  </p> 
+ </form>
+ </center>
+</body>
+</html>
+
+

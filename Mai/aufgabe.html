@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title> Z&auml;hlschleife</title>
+    <script>
+    function ad (avalue, evalue) {  
+    return parseInt(avalue) + parseInt(evalue);
+    }
+    function pr (avalue, evalue) {  
+    return parseInt(avalue) * parseInt(evalue);
+    }
+    function div (avalue, evalue) {  
+    return parseInt(avalue) / parseInt(evalue);
+    }
+    function dif (avalue, evalue) {  
+    return parseInt(avalue) - parseInt(evalue);
+    }
+   
+   </script>
+</head>
+<body>
+<center>
+<h2>Summe der nat&uuml;rlichen Zahlen </h2>
+ 
+<form  name="zaehlschleife">
+    <p>Startwert <input name="start" type="text" value="">  </p>
+    <p>Endwert <input name="ende" type="text" value="">  </p>
+    <p><input name="zaehlButton" type="button" value="Summe" 
+        onclick="ausgabe.value = ad (start.value, ende.value)"> </p>
+    <p><input name="zaehlButton1" type="button" value="Produkt" 
+            onclick="ausgabe.value = pr (start.value, ende.value)"> </p>
+    <p><input name="zaehlButton1" type="button" value="Division" 
+                onclick="ausgabe.value = div (start.value, ende.value)"> </p> 
+    <p><input name="zaehlButton1" type="button" value="Differrenz" 
+                    onclick="ausgabe.value = dif (start.value, ende.value)"> </p>      
+    <p>Ergebnis <input name="ausgabe" type="text" value="">  </p> 
+ </form>
+ </center>
+</body>
+</html>
+
+

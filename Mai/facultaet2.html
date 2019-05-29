@@ -1,0 +1,48 @@
+<html>
+<head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    <title> Fakult�t</title>
+    <script>
+        function fac(a){
+          var   n = parseInt(a); 
+          var facultaet = 1; 
+          if (n>1){
+             for(i=1;i<=n;i++){
+	           facultaet = facultaet * i; 
+            }
+          } 	
+          return facultaet;		
+        }
+   </script>
+</head>
+<body>
+<center>
+<h2>Fakult�t von n </h2>
+ 
+<form  name="facultaetBerechnung">
+    <p>0<=n<170 <input id="eingabe" type="text" value="0">  </p>
+    <p><input id="Button" type="button" value="Fakult�t" 
+    	onclick="ausgabe.value = fac(eingabe.value)"> </p>
+    <p>Fakult�t <input id="ausgabe"  type="text" value="">  </p> 
+ </form>
+ </center>
+</body>
+</html>
+
+

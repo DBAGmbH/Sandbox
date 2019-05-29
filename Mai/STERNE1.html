@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Titel</title>
+    <script  type="text/javascript">
+		
+		function sterne( n ) {
+		  for (var s = 0; s < n; s++) {
+			   document.write("*")
+		   }
+		}
+
+		function msterne( n ){
+			for (var i = 0; i < n; i++){			
+				for (var s = i; s < n; s++) {
+					document.write("*")	
+				}
+				document.write("<br/>");
+			}
+		}
+	
+	
+	function zahlen1( n ){
+		for (var i = 0; i < n; i++){
+			
+				for (var s = 0; s < n; s++) {
+					document.write(i)	
+				}
+				document.write("<br/>");
+			}
+		}
+
+    
+    </script>
+</head>
+
+<body>
+   <script>
+	var n = window.prompt("Wie viele Sterne???");
+	sterne( n) ;
+	
+		document.write("<br />");
+		document.write("<br />");
+			
+	msterne( n) ;
+	
+		document.write("<br />");
+		document.write("<br />");
+
+	zahlen1(n);
+
+
+</script>   
+  
+
+</body>
+</html>
